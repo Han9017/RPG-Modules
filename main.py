@@ -3,7 +3,7 @@
 #    Author: Han Wang
 #    Date created: 3/26/2023
 #    Date last modified: 3/30/2023
-#    version 2
+#    version 3
 #-----------------------------------------------------------------------------
 '''   Description: Adventure Games'''
 #-----------------------------------------------------------------------------
@@ -163,7 +163,7 @@ def MainMenu():
     
     elif userInput == Choose[1]:
       print("You look around.")
-      #Function call-----------------------------------------------------------------------
+      #Function call----------------------------------------------------------
       Inspectplace1()
       Inspectnpc1()
       #if the user chooses to quit, the game quit
